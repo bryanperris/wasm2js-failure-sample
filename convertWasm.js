@@ -35,7 +35,7 @@ if (!isWin) {
 cmd += " ";
 cmd += "index_bg.wasm -o index_bg.wasm.js ";
 cmd += "--enable-mutable-globals ";
-cmd += "-O3 --inlining-optimizing --optimize-instructions --optimize-stack-ir --post-assemblyscript-finalize --post-emscripten";
+cmd += "-O3 --inlining-optimizing --optimize-instructions --optimize-stack-ir";
 
 console.log("Converting WebAssembly to Javascript (" + platform + ")");
 
